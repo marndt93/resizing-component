@@ -8,16 +8,19 @@
 
 .Resize-vertical {
     display: inline-block;
-    max-width: 300px;
+    min-height: 50vh;
 }
 
 .Resize-half-vertical {
     display: inline-block;
     width: 50vw;
+    min-height: 50vh
+    
 }
 
 .Resize-full-vertical {
     position: absolute;    
     display: inline-block;
     width: 100vw;
+    min-height: 50vh;    
 }
