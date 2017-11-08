@@ -1,16 +1,23 @@
 .Resize-half-horizontal {
-    background-color: #222;
     height: 50vh;
-    color: blue;
 }
+
 .Resize-full-horizontal {
-    background-color: cornflowerblue;
     height: 100vh;
-    color: black;
 }
-Resize-vertical {
-    display: inline-block
+
+.Resize-vertical {
+    display: inline-block;
+    max-width: 300px;
 }
-#2.Resize-vertical {
-    display: inline-block
+
+.Resize-half-vertical {
+    display: inline-block;
+    width: 50vw;
+}
+
+.Resize-full-vertical {
+    position: absolute;    
+    display: inline-block;
+    width: 100vw;
 }

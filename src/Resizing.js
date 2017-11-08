@@ -34,10 +34,10 @@ class Resizing extends Component {
     return (
       <div>
         {/*this.props.children*/}
-        <div id = '1' className={"Resize" + active + orientation}>
+        <div className={"Resize" + active + orientation} style={{backgroundColor: "cornflowerblue"}}>
             {this.props.children[0]}
         </div>
-        <div id = '2' className={"Resize" + active2 + orientation}>
+        <div className={"Resize" + active2 + orientation} style={{backgroundColor: "coral"}}>
             {this.props.children[1]}
         </div>          
 

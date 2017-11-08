@@ -25,10 +25,12 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <button id='component_1' onClick={this.update.bind(this)}>Toggle Component 1</button>
-        <button id='component_2' onClick={this.update.bind(this)}>Toggle Component 2</button>
-        <button id='toggle_orientation' onClick={this.update.bind(this)}>Toggle Orientation</button> 
+      <div>
+        <div className="App">
+          <button id='component_1' onClick={this.update.bind(this)}>Toggle Component 1</button>
+          <button id='component_2' onClick={this.update.bind(this)}>Toggle Component 2</button>
+          <button id='toggle_orientation' onClick={this.update.bind(this)}>Toggle Orientation</button>
+        </div> 
         <div>{this.state.active}</div>      
         <Resizing active = {this.state.active} active2 = {this.state.active2} horizontal = {this.state.horizontal}>
           <div>hello</div>
